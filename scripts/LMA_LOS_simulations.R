@@ -9,7 +9,7 @@
 # SETTINGS ####################################################################
 
 # LMA sites to process (write "all" for processing all sites in coords file)
-lma_ID <- seq(57, 60)
+lma_ID <- 53
 # lma_ID <- "all"
 
 # Work directory
@@ -52,7 +52,7 @@ r_dem[r_dem<0] <- 0
 
 # FIND SITE ALTITUDE FROM DEM #################################################
 
-if (lma_ID=="all"){lma_ID<-coords_lma$ID} else {lma_ID<-as.character(lma_ID)}
+if (lma_ID[1]=="all"){lma_ID<-coords_lma$ID} else {lma_ID<-as.character(lma_ID)}
 
 # IDs to be processed (not already in data file)
 id_alt <- lma_ID[which(!lma_ID %in% data_lma$ID)]

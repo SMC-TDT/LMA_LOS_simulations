@@ -6,12 +6,12 @@
 
 ###############################################################################
 
-library(raster)
-library(rgdal)
-library(plyr) # grouping & summarising
-library(data.table) # table manipulation
-library(akima) # interpolation
-library(maptools) # shapefile reading
+suppressMessages(library(raster))
+suppressMessages(library(rgdal))
+suppressMessages(library(plyr)) # grouping & summarising
+suppressMessages(library(data.table)) # table manipulation
+suppressMessages(library(akima)) # interpolation
+suppressMessages(library(maptools)) # shapefile reading
 
 ###############################################################################
 
