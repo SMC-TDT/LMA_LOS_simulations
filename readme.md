@@ -7,7 +7,7 @@ L'algorisme calcula les coordenades polars (r, az) de la LOS del sensor i les in
 INPUT USUARI: /work_path/DATA/LMA_coords.txt (arxiu amb l'ID, nom i coordenades UTM de les estacions LMA)
 OUTPUt: /work_path/TIF/LOS_lma_ID#.tif (arxiu Geotif) i /work_path/FIG/LOS_LMA_ID#.png (figura png)
 
-![alt text](https://github.com/SMC-TDT/LMA_LOS_simulations/blob/main/LMA_LOS_simulation.png)
+![alt text](https://github.com/SMC-TDT/LMA_LOS_simulations/blob/main/LMA_LOS_simulation_GH.png)
 
 ### Estructura de carpetes:
 
