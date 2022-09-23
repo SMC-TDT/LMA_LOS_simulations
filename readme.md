@@ -31,4 +31,4 @@ La carpeta LMA_LOS_simulations ha de contenir com a mínim les següents 2 carpe
 
 4. Executar l'script principal. En cas que ho feu des de la terminal:
   
-  `$ RScript /work_path/scripts/LMA_LOS_simulations.R`
+  `$ Rscript /work_path/scripts/LMA_LOS_simulations.R`
