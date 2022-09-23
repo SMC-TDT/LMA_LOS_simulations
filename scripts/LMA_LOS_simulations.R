@@ -13,7 +13,7 @@ lma_ID <- seq(57, 60)
 # lma_ID <- "all"
 
 # Work directory
-path_wrk <- "/Users/patriciaaltube/Desktop/LMA_LOS_sim"
+path_wrk <- "/Users/patriciaaltube/Desktop/LMA_LOS_simulations"
 
 ###############################################################################
 # LOAD DEFAULT SETTINGS AND FUNCTIONS #########################################

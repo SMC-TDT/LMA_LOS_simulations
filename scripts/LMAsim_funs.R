@@ -6,7 +6,6 @@
 
 ###############################################################################
 
-library(here) # retrieve current script path
 library(raster)
 library(rgdal)
 library(plyr) # grouping & summarising
