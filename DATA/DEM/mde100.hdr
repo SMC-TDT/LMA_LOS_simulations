@@ -1,0 +1,13 @@
+ENVI
+description = {DEM 100 m derivat de DEM 30 m, resize 0.3}
+samples = 2771
+lines   = 2671
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 2
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {UTM, 1.000, 1.000, 257980.000, 4752020.000, 100.00000000, 100.00000000, 31, North, European 1950, units=Meters}
+band names = {DEM 100 m}
