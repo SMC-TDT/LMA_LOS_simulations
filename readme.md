@@ -25,7 +25,7 @@ L'algorisme calcula les coordenades polars (r, az) de la LOS (Line Of Sight, lí
 
 ### Output: 
 
-/path_wrk/INDV_TIF/LOS_lma_ID#_RXXXkm.tif (arxiu Geotif)<br/>
+/path_wrk/INDV_TIF/LOS_lma_ID#_RXXXkm.tif (arxiu Geotif)
 
 /path_wrk/INDV_PNG/LOS_lma_ID#_RXXXkm.png (figura png)
 
@@ -37,7 +37,7 @@ L'algorisme calcula les coordenades polars (r, az) de la LOS (Line Of Sight, lí
 
 3. **/path_wrk/scripts/LMA_LOS_sets.R** (opcional): podeu modificar altres paràmetres, com ara: fitxers d'entrada, directoris d'entrada i sortida, límits i resolució de la LOS en coordenades polars i del raster de sortida i escales de colors de la figura de sortida. Tanmateix, per garantir el funcionament del programari, es recomana no modificar aquests paràmetres, excepte si teniu molt clar el què feu ;).
 
-4. Executar l'script principal: `$ Rscript /path_wrk/scripts/LMA_LOS_simulations.R`\n
+4. Executar l'script principal: `$ Rscript /path_wrk/scripts/LMA_LOS_simulations.R`
 
 
 <img src="https://github.com/SMC-TDT/LMA_LOS_simulations/blob/main/LMA_LOS_simulation.png" width="800" height="400">
